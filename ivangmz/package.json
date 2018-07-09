@@ -1,0 +1,14 @@
+{
+  "name": "ivangmz",
+  "version": "1.0.0",
+  "description": "1. [Viborita](viborita/viborita.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.1"
+  }
+}
