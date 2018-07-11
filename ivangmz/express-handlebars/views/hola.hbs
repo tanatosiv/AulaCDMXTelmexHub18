@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde ipsa, eveniet reiciendis corrupti alias earum autem illo esse reprehenderit?</p>
+
+<div style="background-color: red; padding: 50px;">
+    <ul>
+        {{#each amigos}}
+            <li>{{name}} tiene <span style="color: purple;">{{age}}</span> años
+            {{#if hasPets}}
+                 y tiene de mascotas {{pets}}
+            {{/if}}
+            </li>
+        {{/each}}
+    </ul>
+</div>
+
