@@ -22,3 +22,13 @@
         -titulo
         -numero
         -contenido
+
+# Ejercicio 2
+
+    1. Ruta para la página home get '/'
+
+    2. Una view home.hbs donde muestra:
+        - con algún estilo css link con los títulos a cada blog
+        - botón "Agregar nuevo blog" que redirija a la página de '/blog-new'
+
+    3. Ponerle un botón en la página de blog para regresar al home
